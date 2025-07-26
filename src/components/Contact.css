@@ -1,0 +1,135 @@
+.contact-container {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+  padding: 80px 20px;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-buttons {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.back-button,
+.contact-button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover,
+.contact-button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contact-content {
+  max-width: 700px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+.contact-content h2 {
+  background: linear-gradient(to left, #0f202700, #203a436d, #2c5364);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.contact-content p {
+  color: #ccc;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 12px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  outline: none;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.contact-footer h4 {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* تويتر - ممكن تغييره */
+}
+
+.speak p {
+  font-family: monospace;
+  font-size: 1.1rem;
+}
