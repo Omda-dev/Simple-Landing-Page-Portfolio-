@@ -12,9 +12,9 @@ This is a clean and modern landing page built using **React**. The goal of this 
 
 ## 📸 Screenshots
 
-![Landing Page](./screenshots/landing-page.png)
-![My Work](./screenshots/my-work.png)
-![Contact](./screenshots/contact.png)
+![Landing Page](./src/Screenshot_28-7-2025_212454_localhost.jpeg)
+![My Work](./src/Screenshot_28-7-2025_213030_localhost.jpeg)
+![Contact](./src/Screenshot_28-7-2025_212856_localhost.jpeg)
 
 ## 🛠️ Built With
 
@@ -24,4 +24,3 @@ This is a clean and modern landing page built using **React**. The goal of this 
 - React Icons
 
 ## 📁 Folder Structure
-
